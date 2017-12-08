@@ -1,4 +1,7 @@
+https://github.com/serifaydin/.Net-Core-WebAPI/blob/master/vs.png
+
 # .Net-Core-WebAPI
+
 .Net Core WebAPI & Entity FrameworkCore
 
 Added Nuget Package :Microsoft.EntityFrameworkCore.DbContext
