@@ -95,3 +95,10 @@ namespace Core_WebApp.Controllers
         }
     }
 }
+
+Notes
+Bir Methodun geri dönüþ tipi IActionResult ise aþaðýdaki iþlemler çokça iþimizi görecektir.
+1) return new ObjectResult(item); //Geriye bir object döndürmak istediðimizde kullanabiliriz.
+2) return NotFound(); //Sayfa bulunamadý
+3) return BadRequest(); //iþlem tamamlanamadý
+4) return new NoContentResult(); //Geriye Boþ içerik döndür.
